@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F05468D1039171B00C2CAB2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0F05468C1039171B00C2CAB2 /* Credits.rtf */; };
+		0F0546C21039187B00C2CAB2 /* HacHelpController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0546C11039187B00C2CAB2 /* HacHelpController.m */; };
+		0F0B59891128A47800718D6F /* HacGzipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B59881128A47800718D6F /* HacGzipArchive.m */; };
+		0F0B59971128A67200718D6F /* HacPaxArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B59961128A67200718D6F /* HacPaxArchive.m */; };
+		0F0B599D1128A6C000718D6F /* HacFileArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B599C1128A6C000718D6F /* HacFileArchive.m */; };
+		0F0B59FD1128AFC500718D6F /* HacXarArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B59FC1128AFC500718D6F /* HacXarArchive.m */; };
+		0F0B5A281128B2C000718D6F /* NSString+TemporaryDirectoryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B5A271128B2C000718D6F /* NSString+TemporaryDirectoryAdditions.m */; };
+		0F0B5B4C1128CB0F00718D6F /* NSTask+InitializerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B5B4B1128CB0F00718D6F /* NSTask+InitializerAdditions.m */; };
+		0F0B601F112A022400718D6F /* HacFileDialogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B601E112A022400718D6F /* HacFileDialogManager.m */; };
+		0F3D360010370BD500A895A1 /* FileOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3D35FF10370BD500A895A1 /* FileOutlineView.m */; };
+		0F5C8E79110FCC150073E6F2 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5C8E78110FCC150073E6F2 /* Sparkle.framework */; };
+		0F5C8F76110FCCE90073E6F2 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C8F75110FCCE90073E6F2 /* dsa_pub.pem */; };
+		0F5C8F84110FCE1B0073E6F2 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F5C8E78110FCC150073E6F2 /* Sparkle.framework */; };
+		0F5C8FBE110FD01D0073E6F2 /* NSFileManager+TigerCompatibilityAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C8FBD110FD01D0073E6F2 /* NSFileManager+TigerCompatibilityAdditions.m */; };
+		0FE0EF431037DF660014865F /* Payload Extractor.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0FE0EF421037DF660014865F /* Payload Extractor.icns */; };
+		0FE772471110D8AE001F7603 /* xar in Resources */ = {isa = PBXBuildFile; fileRef = 0FE772461110D8AE001F7603 /* xar */; };
+		0FEAE77011286A19000C0D7E /* HacPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEAE76F11286A19000C0D7E /* HacPackage.m */; };
+		0FFDC053111DD2F50031F6BF /* FileOutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFDC052111DD2F50031F6BF /* FileOutlineViewController.m */; };
+		0FFDC0C6111DDD010031F6BF /* Extract Green.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0FFDC0C2111DDD010031F6BF /* Extract Green.tiff */; };
+		0FFDC0C7111DDD010031F6BF /* Extract Blue.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0FFDC0C3111DDD010031F6BF /* Extract Blue.tiff */; };
+		0FFDC191111DF47F0031F6BF /* FileOutlineViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFDC190111DF47F0031F6BF /* FileOutlineViewCell.m */; };
+		1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* MyDocument.xib */; };
+		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* HacPackageDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* HacPackageDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F5C8FA8110FCE1D0073E6F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0F5C8F84110FCE1B0073E6F2 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F05468C1039171B00C2CAB2 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		0F0546C01039187B00C2CAB2 /* HacHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HacHelpController.h; sourceTree = "<group>"; };
+		0F0546C11039187B00C2CAB2 /* HacHelpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HacHelpController.m; sourceTree = "<group>"; };
+		0F0B59871128A47800718D6F /* HacGzipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HacGzipArchive.h; sourceTree = "<group>"; };
+		0F0B59881128A47800718D6F /* HacGzipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HacGzipArchive.m; sourceTree = "<group>"; };
+		0F0B59951128A67200718D6F /* HacPaxArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HacPaxArchive.h; sourceTree = "<group>"; };
+		0F0B59961128A67200718D6F /* HacPaxArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HacPaxArchive.m; sourceTree = "<group>"; };
+		0F0B599B1128A6C000718D6F /* HacFileArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HacFileArchive.h; sourceTree = "<group>"; };
+		0F0B599C1128A6C000718D6F /* HacFileArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HacFileArchive.m; sourceTree = "<group>"; };
+		0F0B59FB1128AFC500718D6F /* HacXarArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HacXarArchive.h; sourceTree = "<group>"; };
+		0F0B59FC1128AFC500718D6F /* HacXarArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HacXarArchive.m; sourceTree = "<group>"; };
+		0F0B5A261128B2C000718D6F /* NSString+TemporaryDirectoryAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TemporaryDirectoryAdditions.h"; sourceTree = "<group>"; };
+		0F0B5A271128B2C000718D6F /* NSString+TemporaryDirectoryAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TemporaryDirectoryAdditions.m"; sourceTree = "<group>"; };
+		0F0B5B4A1128CB0F00718D6F /* NSTask+InitializerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTask+InitializerAdditions.h"; sourceTree = "<group>"; };
+		0F0B5B4B1128CB0F00718D6F /* NSTask+InitializerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTask+InitializerAdditions.m"; sourceTree = "<group>"; };
+		0F0B601D112A022400718D6F /* HacFileDialogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HacFileDialogManager.h; sourceTree = "<group>"; };
+		0F0B601E112A022400718D6F /* HacFileDialogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HacFileDialogManager.m; sourceTree = "<group>"; };
+		0F3D35FE10370BD500A895A1 /* FileOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileOutlineView.h; sourceTree = "<group>"; };
+		0F3D35FF10370BD500A895A1 /* FileOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileOutlineView.m; sourceTree = "<group>"; };
+		0F5C8E78110FCC150073E6F2 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		0F5C8F75110FCCE90073E6F2 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		0F5C8FBC110FD01D0073E6F2 /* NSFileManager+TigerCompatibilityAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+TigerCompatibilityAdditions.h"; sourceTree = "<group>"; };
+		0F5C8FBD110FD01D0073E6F2 /* NSFileManager+TigerCompatibilityAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+TigerCompatibilityAdditions.m"; sourceTree = "<group>"; };
+		0FE0EF421037DF660014865F /* Payload Extractor.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Payload Extractor.icns"; sourceTree = "<group>"; };
+		0FE772461110D8AE001F7603 /* xar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = xar; sourceTree = "<group>"; };
+		0FEAE76E11286A19000C0D7E /* HacPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HacPackage.h; sourceTree = "<group>"; };
+		0FEAE76F11286A19000C0D7E /* HacPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HacPackage.m; sourceTree = "<group>"; };
+		0FFDC051111DD2F50031F6BF /* FileOutlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileOutlineViewController.h; sourceTree = "<group>"; };
+		0FFDC052111DD2F50031F6BF /* FileOutlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileOutlineViewController.m; sourceTree = "<group>"; };
+		0FFDC0C2111DDD010031F6BF /* Extract Green.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Extract Green.tiff"; sourceTree = "<group>"; };
+		0FFDC0C3111DDD010031F6BF /* Extract Blue.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Extract Blue.tiff"; sourceTree = "<group>"; };
+		0FFDC18F111DF47F0031F6BF /* FileOutlineViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileOutlineViewCell.h; sourceTree = "<group>"; };
+		0FFDC190111DF47F0031F6BF /* FileOutlineViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileOutlineViewCell.m; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2A37F4ACFDCFA73011CA2CEA /* HacPackageDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HacPackageDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* HacPackageDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HacPackageDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* Payload Extractor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Payload Extractor_Prefix.pch"; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* Payload Extractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Payload Extractor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				0F5C8E79110FCC150073E6F2 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0B59DB1128A9E000718D6F /* Archiving */ = {
+			isa = PBXGroup;
+			children = (
+				0F0B599B1128A6C000718D6F /* HacFileArchive.h */,
+				0F0B599C1128A6C000718D6F /* HacFileArchive.m */,
+				0F0B59871128A47800718D6F /* HacGzipArchive.h */,
+				0F0B59881128A47800718D6F /* HacGzipArchive.m */,
+				0F0B59951128A67200718D6F /* HacPaxArchive.h */,
+				0F0B59961128A67200718D6F /* HacPaxArchive.m */,
+				0F0B59FB1128AFC500718D6F /* HacXarArchive.h */,
+				0F0B59FC1128AFC500718D6F /* HacXarArchive.m */,
+			);
+			name = Archiving;
+			sourceTree = "<group>";
+		};
+		0FDACED8111F605600FE31E0 /* FileOutlineView */ = {
+			isa = PBXGroup;
+			children = (
+				0F3D35FE10370BD500A895A1 /* FileOutlineView.h */,
+				0F3D35FF10370BD500A895A1 /* FileOutlineView.m */,
+				0FFDC18F111DF47F0031F6BF /* FileOutlineViewCell.h */,
+				0FFDC190111DF47F0031F6BF /* FileOutlineViewCell.m */,
+				0FFDC051111DD2F50031F6BF /* FileOutlineViewController.h */,
+				0FFDC052111DD2F50031F6BF /* FileOutlineViewController.m */,
+			);
+			name = FileOutlineView;
+			sourceTree = "<group>";
+		};
+		0FEAE74911286561000C0D7E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0F5C8FBC110FD01D0073E6F2 /* NSFileManager+TigerCompatibilityAdditions.h */,
+				0F5C8FBD110FD01D0073E6F2 /* NSFileManager+TigerCompatibilityAdditions.m */,
+				0F0B5A261128B2C000718D6F /* NSString+TemporaryDirectoryAdditions.h */,
+				0F0B5A271128B2C000718D6F /* NSString+TemporaryDirectoryAdditions.m */,
+				0F0B5B4A1128CB0F00718D6F /* NSTask+InitializerAdditions.h */,
+				0F0B5B4B1128CB0F00718D6F /* NSTask+InitializerAdditions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		0FFDC0B9111DDCF80031F6BF /* Toolbar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				0FFDC0C2111DDD010031F6BF /* Extract Green.tiff */,
+				0FFDC0C3111DDD010031F6BF /* Extract Blue.tiff */,
+			);
+			name = "Toolbar Icons";
+			sourceTree = "<group>";
+		};
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				0F5C8E78110FCC150073E6F2 /* Sparkle.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* Payload Extractor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* Payload Extractor */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = "Payload Extractor";
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0FEAE74911286561000C0D7E /* Categories */,
+				0F0B59DB1128A9E000718D6F /* Archiving */,
+				0FDACED8111F605600FE31E0 /* FileOutlineView */,
+				2A37F4AEFDCFA73011CA2CEA /* HacPackageDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* HacPackageDocument.m */,
+				0F0B601D112A022400718D6F /* HacFileDialogManager.h */,
+				0F0B601E112A022400718D6F /* HacFileDialogManager.m */,
+				0FEAE76E11286A19000C0D7E /* HacPackage.h */,
+				0FEAE76F11286A19000C0D7E /* HacPackage.m */,
+				0F0546C01039187B00C2CAB2 /* HacHelpController.h */,
+				0F0546C11039187B00C2CAB2 /* HacHelpController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF750370BD2300C91783 /* Payload Extractor_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FFDC0B9111DDCF80031F6BF /* Toolbar Icons */,
+				0FE772461110D8AE001F7603 /* xar */,
+				0FE0EF421037DF660014865F /* Payload Extractor.icns */,
+				0F05468C1039171B00C2CAB2 /* Credits.rtf */,
+				0F5C8F75110FCCE90073E6F2 /* dsa_pub.pem */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1DDD58280DA1D0D100B32029 /* MyDocument.xib */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* Payload Extractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Payload Extractor" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+				0F5C8FA8110FCE1D0073E6F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Payload Extractor";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Payload Extractor";
+			productReference = 8D15AC370486D014006FF6A4 /* Payload Extractor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Payload Extractor" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Payload Extractor */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* Payload Extractor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */,
+				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+				0FE0EF431037DF660014865F /* Payload Extractor.icns in Resources */,
+				0F05468D1039171B00C2CAB2 /* Credits.rtf in Resources */,
+				0F5C8F76110FCCE90073E6F2 /* dsa_pub.pem in Resources */,
+				0FE772471110D8AE001F7603 /* xar in Resources */,
+				0FFDC0C6111DDD010031F6BF /* Extract Green.tiff in Resources */,
+				0FFDC0C7111DDD010031F6BF /* Extract Blue.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* HacPackageDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				0F3D360010370BD500A895A1 /* FileOutlineView.m in Sources */,
+				0F0546C21039187B00C2CAB2 /* HacHelpController.m in Sources */,
+				0F5C8FBE110FD01D0073E6F2 /* NSFileManager+TigerCompatibilityAdditions.m in Sources */,
+				0FFDC053111DD2F50031F6BF /* FileOutlineViewController.m in Sources */,
+				0FFDC191111DF47F0031F6BF /* FileOutlineViewCell.m in Sources */,
+				0FEAE77011286A19000C0D7E /* HacPackage.m in Sources */,
+				0F0B59891128A47800718D6F /* HacGzipArchive.m in Sources */,
+				0F0B59971128A67200718D6F /* HacPaxArchive.m in Sources */,
+				0F0B599D1128A6C000718D6F /* HacFileArchive.m in Sources */,
+				0F0B59FD1128AFC500718D6F /* HacXarArchive.m in Sources */,
+				0F0B5A281128B2C000718D6F /* NSString+TemporaryDirectoryAdditions.m in Sources */,
+				0F0B5B4C1128CB0F00718D6F /* NSTask+InitializerAdditions.m in Sources */,
+				0F0B601F112A022400718D6F /* HacFileDialogManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58280DA1D0D100B32029 /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58290DA1D0D100B32029 /* English */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Payload Extractor_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Payload Extractor";
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Payload Extractor_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Payload Extractor";
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = 4.0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.4;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = 4.0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				PREBINDING = NO;
+				SDKROOT = macosx10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Payload Extractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Payload Extractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

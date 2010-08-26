@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Payload Extractor' target in the 'Payload Extractor' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
